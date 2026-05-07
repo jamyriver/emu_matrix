@@ -1,0 +1,15 @@
+INSERT INTO games (name, name_en, platform, cover_url, rom_url, emulator_core, category, tags, description, release_year, publisher) VALUES
+('宝可梦 红', 'Pokémon Red', 'gb', '/covers/gb/pokemon-red.png', '/roms/gb/pokemon-red.gb', 'gambatte', 'rpg', ARRAY['RPG','经典','收集'], '任天堂经典RPG，宝可梦系列开山之作', 1996, 'Nintendo'),
+('宝可梦 金', 'Pokémon Gold', 'gb', '/covers/gb/pokemon-gold.png', '/roms/gb/pokemon-gold.gbc', 'gambatte', 'rpg', ARRAY['RPG','经典','收集'], '宝可梦第二代作品，支持GBC彩色', 1999, 'Nintendo'),
+('塞尔达传说：梦见岛', 'The Legend of Zelda: Link''s Awakening', 'gb', '/covers/gb/zelda-la.png', '/roms/gb/zelda-la.gb', 'gambatte', 'action', ARRAY['动作','冒险','经典'], 'Game Boy上的塞尔达冒险', 1993, 'Nintendo'),
+('俄罗斯方块', 'Tetris', 'gb', '/covers/gb/tetris.png', '/roms/gb/tetris.gb', 'gambatte', 'puzzle', ARRAY['益智','经典'], 'Game Boy捆绑销售的经典益智游戏', 1989, 'Nintendo'),
+('超级马里奥大陆', 'Super Mario Land', 'gb', '/covers/gb/sml.png', '/roms/gb/sml.gb', 'gambatte', 'platform', ARRAY['平台','经典'], 'Game Boy上的马里奥平台游戏', 1989, 'Nintendo'),
+('银河战士II', 'Metroid II: Return of Samus', 'gb', '/covers/gb/metroid2.png', '/roms/gb/metroid2.gb', 'gambatte', 'action', ARRAY['动作','探索'], '萨姆斯在SR388星球上的冒险', 1991, 'Nintendo'),
+('宝可梦 红宝石', 'Pokémon Ruby', 'gba', '/covers/gba/pokemon-ruby.png', '/roms/gba/pokemon-ruby.gba', 'mgba', 'rpg', ARRAY['RPG','经典','收集'], 'GBA上的宝可梦第三代作品', 2002, 'Nintendo'),
+('宝可梦 火红', 'Pokémon FireRed', 'gba', '/covers/gba/pokemon-fr.png', '/roms/gba/pokemon-fr.gba', 'mgba', 'rpg', ARRAY['RPG','经典','重制'], '初代宝可梦的GBA重制版', 2004, 'Nintendo'),
+('塞尔达传说：缩小帽', 'The Legend of Zelda: The Minish Cap', 'gba', '/covers/gba/zelda-mc.png', '/roms/gba/zelda-mc.gba', 'mgba', 'action', ARRAY['动作','冒险'], '林克变小冒险的独特塞尔达作品', 2004, 'Nintendo'),
+('高级战争', 'Advance Wars', 'gba', '/covers/gba/aw.png', '/roms/gba/aw.gba', 'mgba', 'strategy', ARRAY['策略','回合制'], 'GBA经典回合制策略游戏', 2001, 'Nintendo'),
+('黄金太阳', 'Golden Sun', 'gba', '/covers/gba/gs.png', '/roms/gba/gs.gba', 'mgba', 'rpg', ARRAY['RPG','经典'], 'GBA上画面最出色的RPG之一', 2001, 'Camelot'),
+('马里奥赛车Advance', 'Mario Kart: Super Circuit', 'gba', '/covers/gba/mksc.png', '/roms/gba/mksc.gba', 'mgba', 'racing', ARRAY['竞速','经典'], 'GBA上的马里奥赛车', 2001, 'Nintendo'),
+('火焰纹章', 'Fire Emblem', 'gba', '/covers/gba/fe.png', '/roms/gba/fe.gba', 'mgba', 'strategy', ARRAY['策略','RPG','战棋'], 'GBA上首款海外发售的火焰纹章', 2003, 'Intelligent Systems'),
+('恶魔城：月轮', 'Castlevania: Circle of the Moon', 'gba', '/covers/gba/cv-cotm.png', '/roms/gba/cv-cotm.gba', 'mgba', 'action', ARRAY['动作','平台','经典'], 'GBA首发恶魔城作品', 2001, 'Konami');

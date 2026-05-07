@@ -1,0 +1,37 @@
+{
+  "name": "emu-matrix",
+  "version": "1.0.0",
+  "private": true,
+  "description": "EMU_Matrix - Cloud Retro Game Platform",
+  "workspaces": [
+    "packages/shared",
+    "packages/auth-service",
+    "packages/game-service",
+    "packages/save-service",
+    "packages/media-service",
+    "packages/gateway",
+    "packages/ws-service",
+    "packages/frontend"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "build:shared": "npm run build -w packages/shared",
+    "build:auth": "npm run build -w packages/auth-service",
+    "build:game": "npm run build -w packages/game-service",
+    "build:save": "npm run build -w packages/save-service",
+    "build:media": "npm run build -w packages/media-service",
+    "build:gateway": "npm run build -w packages/gateway",
+    "build:ws": "npm run build -w packages/ws-service",
+    "build:frontend": "npm run build -w packages/frontend",
+    "dev:auth": "npm run dev -w packages/auth-service",
+    "dev:game": "npm run dev -w packages/game-service",
+    "dev:save": "npm run dev -w packages/save-service",
+    "dev:media": "npm run dev -w packages/media-service",
+    "dev:gateway": "npm run dev -w packages/gateway",
+    "dev:ws": "npm run dev -w packages/ws-service",
+    "dev:frontend": "npm run dev -w packages/frontend",
+    "test": "npm run test --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present"
+  }
+}
